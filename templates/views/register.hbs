@@ -1,0 +1,26 @@
+<html lang="'en">
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width,initial-scale=1' />
+    <link rel='stylesheet' href='css/style.css' />
+
+    <title>Youtube</title>
+  </head>
+  <body>
+    {{>navbar}}
+    <h1>Register</h1>
+
+    <form action="/register" method="POST">
+    <input type="text" placeholder="first name" name="firstname"/>
+    <input type="text" placeholder="last name" name="lastname"/>
+    <input type="email" placeholder="email" name="email"/>
+    <input type="text" placeholder="mobile" name="phone"/>
+    <input type="password" placeholder="password" name="password"/>
+    <input type="password" placeholder="confirm password" name="confirmpassword"/>
+    <input type="text" placeholder="gender" name="gender"/>
+    <input type="number" placeholder="age" name="age"/>
+    <input type="submit"  value="Register"/>
+
+    </form>
+  </body>
+</html>
