@@ -10,6 +10,4 @@ updates:
     schedule:
       interval: "daily"
       time: "22:50"
-    target:
-      branches:
-        - "master"
+     target-branch: "master"
